@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+}
+
+
+input[type=text]:focus {
+    outline: none;
+    border: 2px solid darkcyan;
+    }
+
+.input-button-align{
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+.todo-title{
+    text-align: center;
+}
+
+.todo-add-button input{
+    padding: 2px 9px;
+    border: none;
+    border: 1px solid black;
+}
+
+.list-item{
+    margin-top: 5px;
+    background-color: #e1e1e1;
+    padding: 4px;
+}
