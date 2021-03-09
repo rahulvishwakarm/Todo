@@ -6,6 +6,8 @@ const TodoInput = (props) => {
             <input
                 type="text"
                 placeholder="Add task.."
+                value={props.text_input}
+                onChange={props.handle_Change}
             />
         </div>
     )

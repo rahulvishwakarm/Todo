@@ -5,6 +5,7 @@ const TodoButton = (props) => {
             <input
                 type="button"
                 value={props.label}
+                onClick={props.handleClick}
             />
     )
 }
