@@ -4,6 +4,7 @@ import TodoButton from "./components/TodoButton";
 import TodoInput from "./components/TodoInput";
 import TodoTitle from "./components/TodoTitle";
 import './css/app.css';
+import '../src/css/NewApp.css';
 
 class App extends React.Component  {
   constructor(props) { 

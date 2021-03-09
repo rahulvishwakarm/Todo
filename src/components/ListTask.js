@@ -7,19 +7,14 @@ const ListTask = (props) => {
         {
             return <div className="list" key={items.key}>
                 <p>
-                    
-
                     <input type="text" id={items.key}  value={items.text} onChange={(e)=>{
                         props.setUpdate(e.target.value,items.key) 
                     }} />
-                    
-                    
                     <span>
                         <i className="fa fa-trash delete-icon" onClick={() => {
                             props.deleteItem(items.key)
                         }} ></i>
                     </span>
-
                     <i className="check-icon">
                         <input type="checkbox" />
                     </i>
