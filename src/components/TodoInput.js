@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../css/TodoInput.css';
 
 const TodoInput = (props) => {
     return (
